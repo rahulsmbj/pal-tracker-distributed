@@ -1,5 +1,6 @@
 package io.pivotal.pal.tracker.accounts;
 
+
 public class RegistrationForm {
 
     public final String name;
@@ -30,7 +31,7 @@ public class RegistrationForm {
     @Override
     public String toString() {
         return "RegistrationForm{" +
-            "name='" + name + '\'' +
-            '}';
+                "name='" + name + '\'' +
+                '}';
     }
 }
