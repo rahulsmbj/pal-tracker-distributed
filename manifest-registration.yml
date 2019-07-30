@@ -2,7 +2,7 @@ applications:
 - name: tracker-registration1
   path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
-  - route: registration-pal-rahul.cfapps.io
+  - route: registration-pal-rahul.gcp-wipro.com
   memory: 500M
   disk_quota: 500M
   instances: 1
